@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import { Link } from 'react-router-dom';
 
 const Product = () => {
   return (
@@ -7,7 +8,8 @@ const Product = () => {
       <section className="terms-items">
         <header>
           <h2> آخرین دوره های تاپ لرن </h2>
-          <a href=""> مشاهده همه دوره ها </a>
+        
+          <Link to="/archive"> مشاهده همه دوره ها </Link>
         </header>
         <div className="row">
 
